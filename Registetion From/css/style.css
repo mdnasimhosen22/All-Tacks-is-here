@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+    outline:0;
+}
+h1,h2,h3,h4,h5,h6,heading,footer{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style:none;
+    box-shadow: none;
+}
+/* logu */
+.logu-head {
+    font-weight: 100;
+    color: red;
+    font-size: 22px;
+}
+.w-img{
+    width:50%;
+    margin-top: 37px;
+    margin-left: -243px;
+    
+}
+.max{
+    padding: 4rem 0 0 4rem;
+}
+.hedding {
+    margin-left: 42px;
+    color:#484646
+}
+.max img {
+    width: 98px;
+}
+.navb ul {
+	display: inline-flex;
+	margin-left: -2%;
+}
+.navb ul li a{
+    margin-left:30px;
+    display: inline-flex; 
+    color:#000;
+
+}
+.navb{  
+    padding: 10px;
+    background-color:#d1d1d1;
+}
+
+/* from part */
+.from{
+    margin-left: 42px;
+}
+label{
+    font-size: 30px;
+    margin-top: 10px;
+}
+#s-pad{
+    width: 53%;
+    height:42px;
+}
+.input_nam input{
+    width: 53%;
+    height:42px;
+}
+#pad {
+    margin: 7px 57px;
+}
+.sul{
+    margin-left: 50px;
+    
+}
+.su{
+    font-size:30px;
+    margin:12px 0;
+}
+#helth {
+    margin-left: 45px;
+}
+.email {
+    width: 53%;
+    height: 42px;
+}
+/* button */
+.btn {
+    width: 9rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-color: #d1d1d1;
+}
+.student-from{
+    background-color: #d7d7bf40;
+    width: 70%;
+}

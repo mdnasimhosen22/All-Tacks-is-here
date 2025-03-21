@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box ;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+ul,li{
+    list-style: none;
+}
+h1,h2,h3,h4,header,footer{
+    margin: 0;
+    padding: 0;
+}
+/* header part css strat */
+.header-area{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.togole{
+    display: none;
+}
+.menu{
+    display: inline-flex;
+    margin-top: 6px;
+}
+.menu li a {
+    margin-left: 100px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.search {
+    font-size: 25px;
+    margin-top: 1px;
+    color: green;
+    margin-left: 90px;
+}
+/* header part css end */
+
+
+
+/* hero section css strat  */
+.hero-area{
+    width: 100%;
+    /* height: 789px; */
+    background-color: #F9F8F9;
+    ;
+}
+.header-text{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 120%;
+    padding-top: 126px;
+    padding-left: 55px;
+    color: #094B72;
+
+}
+.header-para {
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    line-height: 158%;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    padding: 0 103px;
+    margin-left: -42px;
+}
+.button button {
+    width: 190px;
+    height: 60px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background-color: #094B72;
+    color: #fff;
+    margin: 10px 0px 45px 54px;
+    font-size: 18px;
+}
+.second-heading {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    vertical-align: middle;
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+
+.icon img{
+    margin-left: 41px;
+}
+.icon{
+    margin-bottom: 14px;
+}
+.icon-1 img {
+    margin-left: -161px;
+}
+.hero-img img{
+    height: 49rem;
+}
+
+/* hero section css end  */
+
+/* content part css strat  */
+.content-area{
+    width: 100%;
+    background-color: #F2FCFF;
+    
+}
+.cont-heder {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 137%;
+    letter-spacing: 0.32px;
+    padding: 150px 0 19px 311px;
+}
+.cont-para {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    padding: 0 0 11px 313px;
+}
+.top-mar{
+    margin-top: 90px;
+    margin-bottom: 77px;
+}
+.box {
+    width: 238px;
+    height: 251px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.cont-img img{
+    margin-top:10px
+}
+.cont-head {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    padding: 8px 11px;
+}
+.cont-p {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+    padding: 0 12px;
+}
+
+/* content part css end  */
+
+
+/* 4th page css strat  */
+.fourth-area{
+    background-color: #1282A6;
+    
+}
+.foure-page{
+    text-align: center;
+}
+.txt {
+    text-transform: capitalize;
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    color: #fff;
+    padding-top: 45px;
+}
+.p-txt{
+    color:#fff;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+   
+
+}
+.digit{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+.this-carec {
+    margin: 0 171px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 21px;
+}
+.this{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 21px;
+}
+/* 4th page css end  */
+
+
+
+/* testimonial part css strat  */
+.test-area{
+    background-color:#F4FBFF;
+   
+}
+.test-head{
+    text-align:center ;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    padding: 36px 0;
+
+}
+.t-box {
+    width: 540px;
+    height: 213px;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-bottom: 44px;
+    border-radius: 11px;
+}
+.para-head{
+text-align:center;
+padding-top:15px;
+}
+.cont-paragph{
+    padding: 23px 34px;
+}
+.center{
+    margin-left: 13%;
+}
+/* testimonial part css end  */
+
+/* qusetion part css strat  */
+.qus-head{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.qus-des{
+    padding: 21px 285px;
+
+}
+.bnt button{
+    margin-left:288px;
+}
+.man img{
+    margin-left: 70px;
+}
+/* qusetion part css end  */
+
+
+
+/* footer frist css strat  */
+.footer-area{
+    background-color: #094B72;
+}
+.footer-logo{
+    margin: 66px 120px;
+}
+.product{
+    color:#fff;
+    text-transform: capitalize;
+    padding:50px 0 ;
+
+}
+.footer-link li a{
+    color:#fff;
+    margin-left: -31px;
+    padding-bottom:10px ;
+    display: inline-block;
+}
+.menu-item a{
+    padding:50px 10px;
+}
+
+
+
+/* footer frist css end  */
+
+
+/* footer last css start */
+.last-footer{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #05546D;
+    color:#fff;
+    align-items: center;
+}
+.copy-txt {
+    font-size:18px;
+    
+}
+.ic{
+    padding:10px 0;
+    margin-right:50px;
+}
+.f-icon ul li a{
+    display: inline-flex;
+   
+}
+.f-icon{
+    margin-left: 100px;
+}
+/* footer last css end */
+  
+
+/* responsive design  */
+@media screen and (max-width:992px){
+    .togole{
+        display: block;
+      
+    }
+    .menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+}

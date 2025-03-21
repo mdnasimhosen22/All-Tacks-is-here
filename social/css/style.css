@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+a{
+    text-decoration: none;
+}  
+ul,li{
+    list-style: none;
+}
+
+/* css nave style start */
+.conteiner{
+    width: 80%;
+    margin:0 auto;
+}
+.nav-area{
+    width: 100%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    margin-top: 10px;
+}
+.nav-head{
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display:flex;
+    margin-top: 10px;
+}
+.nav-cont{
+    /* padding-left: 44px; */
+    margin-left: 30px;
+    color:#000;
+    font-weight: 300;
+    font-size: 18px;
+}
+.nav-item :hover .nav-cont{
+    border-bottom: 2px solid blue;
+   
+}
+.btn {
+    width: 126px;
+    height: 35px;
+    background-color: #b9b9d6;
+    background: linear-gradient(45deg, #06fb70, #0b89c8);
+    border-radius: 30px;
+    border: none;
+}
+/* #097952 #b9b9d6 */
+
+
+/* hero section css strat  */
+.hero-text-part {
+    /* max-width: 454px; */
+}
+.hero-area{
+display: flex;
+/* padding:100px;
+background-image: url(../images/bg-intro-desktop.svg);
+background-repeat: no-repeat; */
+
+
+}
+section{
+    background-color:#f5f1f1;
+    margin-top: 10px;
+}
+.hero-head{
+    width:40vw;
+}
+.hero-heading {
+    font-size: 68px;
+    padding: 178px 101px 12px 0px;
+    font-weight: 400;
+    line-height: 117%;
+}
+.hero-para {
+    padding: 0px 204px 18px 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.hero-img {
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    left:151px;
+    z-index: 1;
+}
+.img-left {
+    position: relative;
+    left: 5rem;
+    bottom:5rem;
+    z-index: 3;
+    /* min-width: 1100px; */
+    
+    
+}
+
+/* hero section css end  */
+
+/* about section css star  */
+.about-sec-area{
+    background-color: #d7d6d6;
+    margin-top: -13rem;
+    z-index: 5;
+
+}
+.about-txt h3 {
+    font-size: 43px;
+    font-weight: 500;
+    padding: 72px 0 23px 0;
+}
+.about-para {
+    padding: 0 40rem 42px 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.about-cont{
+    display:flex;
+
+}
+.about-img{
+    margin-bottom: 30px;
+}
+.cont-hedding h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.cont-para{
+    padding: 11px 59px 62px 0;
+    font-size:18px;
+}
+/* about section css end  */
+
+/* artical part css stat  */
+.artical-area{
+    background-color:#f5f1f1;
+}
+.art-txt {
+    padding-top: 37px;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.image-box{
+    display:flex;
+}
+.img-and-txt{
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: #fff;
+
+}
+.artical-img{
+    width: 300px;
+    height: 300px;
+}
+.gaf{
+    margin-right: 15px;
+}
+.small-head h5 {
+    font-size: 18px;
+    padding: 9px 17px;
+    font-weight: 300;
+}
+.big-header h4 {
+    padding: 0px 17px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.para {
+    font-size: 17px;
+    padding: 11px 14px 13px 17px;
+    line-height: 127%;
+}
+/* artical part css stat  */
+
+/* footr css */
+.logo {
+    color: #fff;
+    margin-top: 29px;
+    margin-bottom: 18px;
+}
+.footer-area{
+    background-color:#3c3c47;
+}
+.icon-f img{
+    margin-left: 18px;
+}
+.icon{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: -18px;
+
+}
+.logo-and-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-cont{
+    display: flex;
+    color:#fff;
+}
+.contuct-2{
+    margin-left: 96px;
+}
+.footer-gaf {
+    padding-top: 3px;
+    padding-bottom: 19px;
+}
+.contuct-1 ul li {
+    padding-top: 10px;
+    
+}
+.contuct-2 ul li{
+    padding-top: 10px;
+    
+}
+.btn-2 {
+    margin-bottom: 20px;
+
+}
+.last{
+    color:#fff;
+    font-size: 20px;
+}
